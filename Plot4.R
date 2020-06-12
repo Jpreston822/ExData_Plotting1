@@ -22,7 +22,7 @@ power_datewanted$Global_active_power <- as.numeric(power_datewanted$Global_activ
 ## Set Global reactive power column to numeric
 power_datewanted$Global_reactive_power <- as.numeric(power_datewanted$Global_reactive_power)
 
-## Set Global Active Power column to numeric
+## Set Voltage column to numeric
 power_datewanted$Voltage <- as.numeric(power_datewanted$Voltage)
 
 ##Plot Graphs
